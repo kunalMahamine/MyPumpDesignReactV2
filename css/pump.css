@@ -1,0 +1,165 @@
+.ms-textbox {
+    border: 1px solid blue; /* Change border color to blue */
+    background-color: #d6ebf2; /* Change background color to lightblue */
+    color: darkblue;
+  }
+ .hsd-textbox {
+    border: 1px solid orangered; /* Change border color to blue */
+    background-color: #ffe5b4; /* Change background color to lightblue */
+    color: darkred;
+ }
+/* Disabled textboxes */
+.ms-textbox:disabled {
+  border-color: gray;  /*Change border color to gray */
+  background-color: #d6ebf2; /*#f0f0f0;  Change background color to light gray */
+  color: gray; /* Change text color to gray */
+}
+
+.hsd-textbox:disabled {
+  border-color: gray;  /*Change border color to gray */
+  background-color: #ffe5b4;  /*Change background color to light gray */
+  color: gray; /* Change text color to gray */
+}
+
+ .chart-area {
+   margin : 5em 20em;
+ }
+ .shadow {
+   filter: drop-shadow( 0px 5px 4px rgba(0, 0, 0, .4));
+ }
+ .ledger tr td {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+.ledger tr th {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+.reports tr td {
+  padding: 4px !important;
+  margin: 4px !important;
+  text-align: center;
+}
+.reports tr th {
+  padding: 4px !important;
+  margin: 4px !important;
+  text-align: center;
+}  
+.daybook tr td {
+  padding: 4px !important;
+  margin: 4px !important;
+}
+.daybook tr th {
+  padding: 4px !important;
+  margin: 4px !important;
+}
+.daybook .heading1 {
+  background-color: #0362d6 !important;
+  color: white !important;
+  font-weight: 900 !important;
+}
+
+.daybook .heading2 {
+  background-color: #028cf1 !important; 
+  color: white !important;;
+}
+.daybook .heading3 {
+  background-color: #d3d3d3 !important; 
+  color: black !important; 
+}
+.daybook .reviewTabNoteLabel {
+  background-color: #0362d6 !important;
+  color: white !important;
+  font-weight: 900 !important;
+}
+
+.ms-tablecell {
+  /*border: 1px solid blue !important; /* Change border color to blue */
+  background-color: #d6ebf2 !important; /* Change background color to lightblue */
+  /*background-color: #aed3f0 !important;
+  color: darkblue !important;*/
+}
+
+.hsd-tablecell {
+  /*border: 1px solid orangered !important; /* Change border color to blue */
+  background-color: #ffe5b4 !important; /* Change background color to lightblue */
+  /*background-color: #fed1cb !important; 
+  color: darkred !important;*/
+}
+
+.ms-tablecell td {
+  color: black !important;
+}
+
+.hsd-tablecell td {
+  color: black !important;
+}
+
+.custom-bg-blue-white {
+  background-color: #0362d6 !important;
+  color: white !important;
+}
+.ms-dashboard-blue1 {
+  background-color:rgb(196, 196, 255) !important;
+  color:darkblue !important;
+}
+.ms-dashboard-blue2 {
+  background-color:rgb(147, 147, 253) !important;
+}
+/* for prfit margin chart on dashboard https://codesandbox.io/p/sandbox/apex-donut-chart-o16x7?file=%2Fsrc%2FApp.js%3A48%2C1-52%2C9 */
+.profit-margin-chart {
+  /* font-family: sans-serif; */
+  text-align: center;
+  /* border: 2px solid #d8d8d8; */
+  border-radius: 4px;
+  max-width: 700px;
+  padding: 10px;
+  font-size: 100px;
+}
+
+.apexcharts-datalabel-value {
+  color: #2f1504;
+  font-size: 45px;
+  /* font-weight: 700; */
+  font-family: Arial;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+}
+
+
+
+/*****************************************for styling drop down options on dahsboard ***************************************/
+.custom-dropdown .custom-dropdown-item {
+  background: none;
+  border: none;
+  /*color: #007bff; /* Custom link color */
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem 1.5rem; /* Custom padding */
+}
+.custom-dropdown .custom-dropdown-item:hover,
+.custom-dropdown .custom-dropdown-item:focus {
+  /*color: #0056b3; /* Custom hover link color */
+  /*background-color: #f8f9fa; /* Custom hover background color */
+  outline: none;
+}
+.custom-dropdown .custom-dropdown-toggle {
+  background: none;
+  border: none;
+  color: inherit; /* Inherits color from surrounding text */
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0;
+}
+.custom-dropdown .custom-dropdown-toggle:focus {
+  outline: none;
+}
+/*****************************************for styling drop down options on dahsboard ***************************************/
